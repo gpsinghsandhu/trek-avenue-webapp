@@ -1,19 +1,25 @@
 Trek Avenue Webapp
 ==================
 
-Requirements
+##Requirements
 ------------
-node
-npm
+1. node
+2. npm
+
+##Install
+-------
+Globally install bower
+
+`npm install -g bower`
 
 Install
--------
-#Globally install bower
-npm install -g bower
 
-sh installHelper.sh
+`sh installHelper.sh`
 
-Usage
------
-cd ./src/server
-npm run dev
+##Usage
+------
+Run http-server
+
+`cd ./src/server`
+
+`npm run dev`
